@@ -5,15 +5,27 @@ Config.IsMecanoJobOnly = true
 
 Config.Zones = {
  
-    ls1 = {
+    ls5 = {
         Pos   = { x = -211.2, y = -1324.01, z = 30.47 },
         Size  = {x = 3.0, y = 3.0, z = 0.2},
         Color = {r = 204, g = 204, b = 0},
         Marker= 1,
         Name  = "Modifiye",
 		Hint  = _U('press_custom'),
-		Job = "unicorngarage" 
-	}
+		Job = "unicorngarage"
+	},
+
+	ls6 = {
+        Pos   = { x = 486.04, y = -1307.16, z = 29.02},
+        Size  = {x = 3.0, y = 3.0, z = 0.2},
+        Color = {r = 204, g = 204, b = 0},
+        Marker= 1,
+        Name  = "Modifiye",
+		Hint  = _U('press_custom'),
+		Job = "mechanic"
+	},
+
+
 }
 
 Config.Colors = {
